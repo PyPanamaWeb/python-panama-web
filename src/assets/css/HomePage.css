@@ -7,13 +7,13 @@
 }
 
 .parallax-first-section-style {
-    background-image: url(../assets/img/parallax/Img_1920x1000xp_Nv1.jpg) !important;
+    background-image: url(../img/parallax/Img_1920x1000xp_Nv1.jpg) !important;
     background-size: cover !important;
     background-position: center !important;
 }
 
 .parallax-second-section-style {
-    background: url(../assets/img/parallax/Img_1920x1000xp_Nv.jpg) !important;
+    background: url(../img/parallax/Img_1920x1000xp_Nv.jpg) !important;
     background-size: cover !important;
     background-position: 0 100% !important;
 }
