@@ -1,4 +1,4 @@
-import "../../assets/css/HomePage.css"
+import "../../../css/HomePage.css"
 
 
 export function PythonHistoryBodyComponent() {
