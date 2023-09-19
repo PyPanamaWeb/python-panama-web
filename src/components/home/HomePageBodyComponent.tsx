@@ -108,7 +108,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/historia-python">
-                                                            <img src={news1}
+                                                            <img src="../../assets/img/blog/medium/noti_1.jpg"
                                                                 className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                                 alt="Top Camper Trailer Towing Tips" />
                                                         </a>
@@ -140,7 +140,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/conoce-guido-van-rossum">
-                                                            <img src={news2} className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="How to Become a Professional Photographer" />
+                                                            <img src="../../assets/img/blog/medium/noti_2.jpg" className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="How to Become a Professional Photographer" />
                                                         </a>
                                                     </div>
                                                     <div className="post-content">
@@ -167,7 +167,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/como-empezar-en-ciencia-de-datos-con-python">
-                                                            <img src={news3} className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
+                                                            <img src="../../assets/img/blog/medium/noti_3.jpg" className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
                                                         </a>
                                                     </div>
                                                     <div className="post-content">
@@ -196,7 +196,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/usar-flask-aun-es-buena-opcion">
-                                                            <img src={news4} className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
+                                                            <img src="../../assets/img/blog/medium/noti_4.jpg" className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
                                                         </a>
                                                     </div>
                                                     <div className="post-content">
@@ -224,7 +224,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/vale-la-pena-estudiar-python">
-                                                            <img src={news5}
+                                                            <img src="../../assets/img/blog/medium/noti_5.jpg"
                                                                 className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                                 alt="Best Ways to Be Happier" />
                                                         </a>
@@ -255,7 +255,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/conoce-el-lenguaje-julia">
-                                                            <img src={news6}
+                                                            <img src="../../assets/img/blog/medium/noti_6.jpg"
                                                                 className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                                 alt="Best Ways to Be Happier" />
                                                         </a>
