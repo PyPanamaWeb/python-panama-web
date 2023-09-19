@@ -1,4 +1,3 @@
-import "../../../public/css/HomePage.css"
 import pythonPanamaLogo from "../../assets/img/logo.png"
 
 export function MenuComponent() {

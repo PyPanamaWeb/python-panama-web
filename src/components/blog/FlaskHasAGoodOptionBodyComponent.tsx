@@ -1,6 +1,3 @@
-import "../../../public/css/HomePage.css"
-
-
 export function FlaskHasAGoodOptionBodyComponent() {
     return (
         <>
