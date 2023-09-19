@@ -1,4 +1,4 @@
-import "../../css/HomePage.css"
+import "../../assets/css/HomePage.css"
 import pythonPanamaDarkLogo from "../../assets/img/logo-dark.png"
 
 export function FooterComponent() {

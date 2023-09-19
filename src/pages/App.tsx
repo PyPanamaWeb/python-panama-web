@@ -1,4 +1,4 @@
-import "../css/HomePage.css"
+import "../assets/css/HomePage.css"
 
 import { MenuComponent } from "../components/common/MenuComponent";
 import { FooterComponent } from "../components/common/FooterComponent";
