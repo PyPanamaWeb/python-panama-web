@@ -1,4 +1,4 @@
-import pythonPanamaSlide1 from "../../assets/img/slides/python_panama_slide_1.png"
+//import pythonPanamaSlide1 from "../../assets/img/slides/python_panama_slide_1.png"
 
 import news1 from "../../assets/img/blog/medium/noti_1.jpg";
 import news2 from "../../assets/img/blog/medium/noti_2.jpg";
@@ -16,7 +16,7 @@ export function HomePageBodyComponent() {
                             data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
                         <ul>
                             <li className="slide-overlay" data-transition="fade">
-                                <img src={pythonPanamaSlide1} alt="" data-bgposition="center center"
+                                <img src="../../assets/img/slides/python_panama_slide_1.png" alt="" data-bgposition="center center"
                                     data-bgfit="cover" data-bgrepeat="no-repeat" className="rev-slidebg" />
 
                                 <h1 className="tp-caption font-weight-extra-bold text-title-light negative-ls-2"
