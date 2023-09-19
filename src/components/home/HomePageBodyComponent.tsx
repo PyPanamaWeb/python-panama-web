@@ -1,12 +1,3 @@
-//import pythonPanamaSlide1 from "../../assets/img/slides/python_panama_slide_1.png"
-
-import news1 from "../../assets/img/blog/medium/noti_1.jpg";
-import news2 from "../../assets/img/blog/medium/noti_2.jpg";
-import news3 from "../../assets/img/blog/medium/noti_3.jpg";
-import news4 from "../../assets/img/blog/medium/noti_4.jpg";
-import news5 from "../../assets/img/blog/medium/noti_5.jpg";
-import news6 from "../../assets/img/blog/medium/noti_6.jpg";
-
 export function HomePageBodyComponent() {
     return (
         <>
