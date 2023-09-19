@@ -1,3 +1,12 @@
+import pythonPanamaSlide1 from "../../assets/img/slides/python_panama_slide_1.png"
+
+import news1 from "../../assets/img/blog/medium/noti_1.jpg";
+import news2 from "../../assets/img/blog/medium/noti_2.jpg";
+import news3 from "../../assets/img/blog/medium/noti_3.jpg";
+import news4 from "../../assets/img/blog/medium/noti_4.jpg";
+import news5 from "../../assets/img/blog/medium/noti_5.jpg";
+import news6 from "../../assets/img/blog/medium/noti_6.jpg";
+
 export function HomePageBodyComponent() {
     return (
         <>
@@ -7,7 +16,7 @@ export function HomePageBodyComponent() {
                             data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 670, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500], 'parallax': { 'type': 'scroll', 'origo': 'enterpoint', 'speed': 1000, 'levels': [2,3,4,5,6,7,8,9,12,50], 'disable_onmobile': 'on' }, 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
                         <ul>
                             <li className="slide-overlay" data-transition="fade">
-                                <img src="../../assets/img/slides/python_panama_slide_1.png" alt="" data-bgposition="center center"
+                                <img src={pythonPanamaSlide1} alt="" data-bgposition="center center"
                                     data-bgfit="cover" data-bgrepeat="no-repeat" className="rev-slidebg" />
 
                                 <h1 className="tp-caption font-weight-extra-bold text-title-light negative-ls-2"
@@ -99,7 +108,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/historia-python">
-                                                            <img src="../../assets/img/blog/medium/noti_1.jpg"
+                                                            <img src={news1}
                                                                 className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                                 alt="Top Camper Trailer Towing Tips" />
                                                         </a>
@@ -131,7 +140,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/conoce-guido-van-rossum">
-                                                            <img src="../../assets/img/blog/medium/noti_2.jpg" className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="How to Become a Professional Photographer" />
+                                                            <img src={news2} className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="How to Become a Professional Photographer" />
                                                         </a>
                                                     </div>
                                                     <div className="post-content">
@@ -158,7 +167,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/como-empezar-en-ciencia-de-datos-con-python">
-                                                            <img src="../../assets/img/blog/medium/noti_3.jpg" className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
+                                                            <img src={news3} className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
                                                         </a>
                                                     </div>
                                                     <div className="post-content">
@@ -187,7 +196,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/usar-flask-aun-es-buena-opcion">
-                                                            <img src="../../assets/img/blog/medium/noti_4.jpg" className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
+                                                            <img src={news4} className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="Best Ways to Be Happier" />
                                                         </a>
                                                     </div>
                                                     <div className="post-content">
@@ -215,7 +224,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/vale-la-pena-estudiar-python">
-                                                            <img src="../../assets/img/blog/medium/noti_5.jpg"
+                                                            <img src={news5}
                                                                 className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                                 alt="Best Ways to Be Happier" />
                                                         </a>
@@ -246,7 +255,7 @@ export function HomePageBodyComponent() {
                                                 <article className="post post-medium border-0 pb-0 mb-5">
                                                     <div className="post-image">
                                                         <a href="/blog/conoce-el-lenguaje-julia">
-                                                            <img src="../../assets/img/blog/medium/noti_6.jpg"
+                                                            <img src={news6}
                                                                 className="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0"
                                                                 alt="Best Ways to Be Happier" />
                                                         </a>
