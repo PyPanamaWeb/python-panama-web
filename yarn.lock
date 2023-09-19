@@ -691,7 +691,7 @@
     node-gyp-build "^4.2.2"
     resolve-from "^5.0.0"
 
-"@vercel/node@3.0.5":
+"@vercel/node@^3.0.5", "@vercel/node@3.0.5":
   version "3.0.5"
   resolved "https://registry.npmjs.org/@vercel/node/-/node-3.0.5.tgz"
   integrity sha512-Ow98UMLuODqORNO34j+mbmTGimWD9BjM4onUKkuaSoLaHcl/CAlTTR4m71IdyJeoDBcf0bRURluseED0gmXCTA==
