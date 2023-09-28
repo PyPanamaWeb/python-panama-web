@@ -2,7 +2,7 @@ import { MenuComponent } from "../components/common/MenuComponent";
 import { FooterComponent } from "../components/common/FooterComponent";
 import { HomePageBodyComponent } from "../components/home/HomePageBodyComponent";
 import { ContactPageBodyComponent } from "../components/contact/ContactPageBodyComponent";
-import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { PythonHistoryBodyComponent } from "../components/blog/PythonHistoryBodyComponent";
 import { MeetGuidoVanRossumBodyComponent } from "../components/blog/MeetGuidoVanRossumBodyComponent";
 import { FirstStepsInDataScienceBodyComponent } from "../components/blog/FirstStepsInDataScienceBodyComponent";
