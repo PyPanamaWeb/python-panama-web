@@ -17,17 +17,17 @@ export function App() {
         <>
             <div className="body">
                 <MenuComponent/>
-                <Routes>
-                    <Route path="/" element={<HomePageBodyComponent/>} />
-                    <Route path="/contacto" element={<ContactPageBodyComponent/>} />
-                    <Route path="/blog/historia-python" element={<PythonHistoryBodyComponent/>} />
-                    <Route path="/blog/conoce-guido-van-rossum" element={<MeetGuidoVanRossumBodyComponent/>} />
-                    <Route path="/blog/como-empezar-en-ciencia-de-datos-con-python" element={<FirstStepsInDataScienceBodyComponent/>} />
-                    <Route path="/blog/vale-la-pena-estudiar-python" element={<WorthsStudyPythonBodyComponent/>} />
-                    <Route path="/blog/usar-flask-aun-es-buena-opcion" element={<FlaskHasAGoodOptionBodyComponent/>} />
-                    <Route path="/blog/conoce-el-lenguaje-julia" element={<JuliaProgrammingLanguageBodyComponent/>} />
-                    <Route path="/*" element={ <Navigate to="/"/> }/>
-                </Routes>
+                  <Routes>
+                            <Route path="/" element={<HomePageBodyComponent/>} />
+                            <Route path="/contacto" element={<ContactPageBodyComponent/>} />
+                            <Route path="/blog/historia-python" element={<PythonHistoryBodyComponent/>} />
+                            <Route path="/blog/conoce-guido-van-rossum" element={<MeetGuidoVanRossumBodyComponent/>} />
+                            <Route path="/blog/como-empezar-en-ciencia-de-datos-con-python" element={<FirstStepsInDataScienceBodyComponent/>} />
+                            <Route path="/blog/vale-la-pena-estudiar-python" element={<WorthsStudyPythonBodyComponent/>} />
+                            <Route path="/blog/usar-flask-aun-es-buena-opcion" element={<FlaskHasAGoodOptionBodyComponent/>} />
+                            <Route path="/blog/conoce-el-lenguaje-julia" element={<JuliaProgrammingLanguageBodyComponent/>} />
+                            <Route path="/*" element={ <Navigate to="/"/> }/>
+                        </Routes>
                 <FooterComponent/>
             </div>
         </>
