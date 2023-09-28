@@ -10,6 +10,8 @@ import { WorthsStudyPythonBodyComponent } from "../components/blog/WorthsStudyPy
 import { FlaskHasAGoodOptionBodyComponent } from "../components/blog/FlaskHasAGoodOptionBodyComponent";
 import { JuliaProgrammingLanguageBodyComponent } from "../components/blog/JuliaProgrammingLanguageBodyComponent";
 
+import "../../public/css/HomePage.css"
+
 export function App() {
     return (
         <>
