@@ -6,7 +6,7 @@ import news3 from "../../assets/img/blog/medium/noti_3.jpg";
 import news4 from "../../assets/img/blog/medium/noti_4.jpg";
 import news5 from "../../assets/img/blog/medium/noti_5.jpg";
 import news6 from "../../assets/img/blog/medium/noti_6.jpg";
-// TEST PANAMA SLACK PYTHON
+// TEST PANAMA SLACK PYTHON 2
 export function HomePageBodyComponent() {
     return (
         <>
