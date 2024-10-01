@@ -28,7 +28,7 @@ export function MenuComponent() {
                                                         <a href="/" className="dropdown-item dropdown-toggle active">Inicio</a>
                                                     </li>
                                                     <li className="dropdown">
-                                                        <a href="http://www.pyconnect.org/2023" className="dropdown-item dropdown-toggle active">PyConnect 2023</a>
+                                                        <a href="https://pycon.pa/" className="dropdown-item dropdown-toggle active">PyCon Panamá</a>
                                                     </li>
                                                     <li className="dropdown">
                                                         <a href="/contacto" className="dropdown-item dropdown-toggle">Contáctanos</a>
